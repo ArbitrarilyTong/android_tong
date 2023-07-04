@@ -12,7 +12,7 @@
         sync-j="4"
         revision="refs/heads/ArbitrarilyTong-13.0" />
     <!-- <remote name="tong-gogs" fetch="https://c70v34.top/" /> -->
-    <!-- <remote name="tong-codeberg" fetch="https://codeberg.org/ArbitrarilyTong/" /> -->
+    <!-- <remote name="tong-codeberg" fetch="https://codeberg.org/" /> -->
     <!-- ArbitrarilyTong Repo -->
 
     <remove-project name="LineageOS/android" />
@@ -72,8 +72,21 @@
     <!-- Add GAPPS -->
     <project path="vendor/gapps" name="ArbitrarilyTong/tong_vendor_gapps" remote="tong-gitlab" />
 
-    <!-- ArbitrarilyTong Vendor -->
-    <project path="ArbitrarilyTong" name="ArbitrarilyTong/tong_vendor_tong-addons" remote="tong-gitlab" />
+    <!-- ArbitrarilyTong Addons -->
+    <!-- <project path="ArbitrarilyTong" name="DogDayAndroid/android_vendor_DogDay" remote="tong-codeberg" revision="DogDay-13.0"/> -->
+    <project path="ArbitrarilyTong" name="ArbitrarilyTong/ArbitrarilyTong_Conf" remote="tong" />
+    <project path="ArbitrarilyTong/Fonts" name="ArbitrarilyTong/Addons/Fonts" remote="tong-gitlab">
+        <!-- <linkfile src="/" dest="ArbitrarilyTong/Fonts" /> -->
+    </project>
+    <project path="ArbitrarilyTong/Audios" name="ArbitrarilyTong/Addons/Audios" remote="tong-gitlab">
+        <!-- <linkfile src="/" dest="ArbitrarilyTong/Audios" /> -->
+    </project>
+    <project path="ArbitrarilyTong/APNs" name="ArbitrarilyTong/Addons/APNs" remote="tong-gitlab">
+        <!-- <linkfile src="/" dest="ArbitrarilyTong/APNs" /> -->
+    </project>
+    <project path="ArbitrarilyTong/Apps" name="ArbitrarilyTong/Addons/Apps" remote="tong-gitlab">
+        <!-- <linkfile src="/" dest="ArbitrarilyTong/Apps" /> -->
+    </project>
 
     <!-- TWRP -->
     <!-- <remove-project name="crdroidandroid/android_bootable_recovery" /> -->
