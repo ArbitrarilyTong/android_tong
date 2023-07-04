@@ -1130,4 +1130,7 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+
+  <!-- Add ArbitrarilyTong -->
+  <include name="snippets/ArbitrarilyTong.xml" />
 </manifest>
