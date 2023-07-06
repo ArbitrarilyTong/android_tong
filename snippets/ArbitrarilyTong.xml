@@ -72,8 +72,8 @@
     <!-- Add GAPPS -->
     <project path="vendor/gapps" name="ArbitrarilyTong/tong_vendor_gapps" remote="tong-gitlab" />
 
-    <!-- ArbitrarilyTong Vendor by easterNday -->
-    <project path="ArbitrarilyTong" name="ArbitrarilyTong/vendor_easterNday" remote="tong" />
+    <!-- ArbitrarilyTong Vendor -->
+    <project path="ArbitrarilyTong" name="ArbitrarilyTong/tong_vendor_tong-addons" remote="tong-gitlab" />
 
     <!-- TWRP -->
     <!-- <remove-project name="crdroidandroid/android_bootable_recovery" /> -->
