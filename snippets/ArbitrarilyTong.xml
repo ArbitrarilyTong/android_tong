@@ -75,6 +75,8 @@
     <!-- ArbitrarilyTong Addons -->
     <!-- <project path="ArbitrarilyTong" name="DogDayAndroid/android_vendor_DogDay" remote="tong-codeberg" revision="DogDay-13.0"/> -->
     <project path="ArbitrarilyTong" name="ArbitrarilyTong/ArbitrarilyTong_Conf" remote="tong" />
+    <project path="ArbitrarilyTong/Settings" name="easterNday/LineageOS_Settings" remote="github" revision="build" />
+    <project path="ArbitrarilyTong/TWRPs" name="ArbitrarilyTong/Addons/TWRPs" remote="tong-gitlab" />
     <project path="ArbitrarilyTong/Fonts" name="ArbitrarilyTong/Addons/Fonts" remote="tong-gitlab">
         <!-- <linkfile src="/" dest="ArbitrarilyTong/Fonts" /> -->
     </project>
