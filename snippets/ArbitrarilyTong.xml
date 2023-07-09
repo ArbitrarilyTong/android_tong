@@ -18,6 +18,10 @@
     <remove-project name="LineageOS/android" />
     <project path="android" name="ArbitrarilyTong/android_tong" remote="tong" />
 
+
+    <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+    <project path="device/lineage/sepolicy" name="ArbitrarilyTong/tong_device_lineage_sepolicy" remote="tong" />
+
     <remove-project name="LineageOS/android_bionic" />
     <project path="bionic" name="ArbitrarilyTong/tong_bionic" groups="pdk" remote="tong" />
 
