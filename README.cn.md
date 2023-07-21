@@ -24,7 +24,7 @@
 
 ### 1. 安装依赖项
 
-为了构建 crDroid，需要安装一些软件包。
+为了构建 ArbitrarilyTong | 任意桐，需要安装一些软件包。
 
 对于 `Ubuntu`：
 
@@ -71,7 +71,7 @@ yay -S repo
 
 以下分支可用于构建：
 
-- ArbitrarilyTong-13.0（基于 crDroid）
+- ArbitrarilyTong-13.0（基于 LineageOS）
 
 输入以下命令以初始化代码仓库：
 

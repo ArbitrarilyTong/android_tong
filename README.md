@@ -26,7 +26,7 @@ This project is developed based on [LineageOS][lineage]
 
 ### 1. Installing dependencies
 
-Several packages are needed in order to build crDroid.
+Several packages are needed in order to build ArbitrarilyTong.
 
 For `Ubuntu`:
 
@@ -74,7 +74,7 @@ yay -S repo
 
 The following branches can be used to build:
 
-- ArbitrarilyTong-13.0 (Based on crDroid)
+- ArbitrarilyTong-13.0 (Based on LineageOS)
 
 Enter the following to initialize the repository:
 
