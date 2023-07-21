@@ -66,7 +66,7 @@ yay -S repo
 
 The following branches can be used to build:
 
-- Litmus-13.0 (Based on crDroid)
+- Litmus-13.0 (Based on LineageOS)
 
 Enter the following to initialize the repository:
 
