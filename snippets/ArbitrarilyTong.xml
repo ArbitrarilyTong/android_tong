@@ -11,6 +11,11 @@
         sync-c="true"
         sync-j="4"
         revision="refs/heads/ArbitrarilyTong-13.0" />
+    <remote name="litmus"
+        fetch="https://github.com/"
+        sync-c="true"
+        sync-j="4"
+        revision="refs/heads/Litmus-13.0" />
     <!-- <remote name="tong-gogs" fetch="https://c70v34.top/" /> -->
     <!-- <remote name="tong-codeberg" fetch="https://codeberg.org/" /> -->
     <!-- ArbitrarilyTong Repo -->
@@ -20,10 +25,10 @@
 
 
     <remove-project name="LineageOS/android_device_lineage_sepolicy" />
-    <project path="device/lineage/sepolicy" name="ArbitrarilyTong/tong_device_lineage_sepolicy" remote="tong" />
+    <project path="device/lineage/sepolicy" name="ArbitrarilyTong/tong_device_lineage_sepolicy" remote="litmus" />
 
     <remove-project name="LineageOS/android_bionic" />
-    <project path="bionic" name="ArbitrarilyTong/tong_bionic" groups="pdk" remote="tong" />
+    <project path="bionic" name="ArbitrarilyTong/tong_bionic" groups="pdk" remote="litmus" />
 
     <remove-project name="LineageOS/android_build" />
     <project path="build/make" name="ArbitrarilyTong/tong_build" groups="pdk">
@@ -41,15 +46,15 @@
 
     <remove-project name="LineageOS/android_frameworks_base" />
     <project path="frameworks/base" name="ArbitrarilyTong/tong_frameworks_base"
-        groups="pdk-cw-fs,pdk-fs" remote="tong"
+        groups="pdk-cw-fs,pdk-fs" remote="litmus"
     />
 
     <remove-project name="LineageOS/android_lineage-sdk" />
-    <project path="lineage-sdk" name="ArbitrarilyTong/tong_lineage-sdk" remote="tong" />
+    <project path="lineage-sdk" name="ArbitrarilyTong/tong_lineage-sdk" remote="litmus" />
 
     <remove-project name="LineageOS/android_packages_apps_Backgrounds" />
     <project path="packages/apps/Backgrounds" name="ArbitrarilyTong/tong_packages_apps_Backgrounds"
-        remote="tong" />
+        remote="litmus" />
 
     <!-- <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" /> -->
     <!-- <project path="packages/apps/crDroidSettings"
@@ -58,11 +63,11 @@
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="ArbitrarilyTong/tong_packages_apps_Settings"
         groups="pdk-fs"
-        remote="tong" />
+        remote="litmus" />
 
     <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
     <project path="packages/apps/SetupWizard" name="ArbitrarilyTong/tong_packages_apps_SetupWizard"
-        remote="tong" />
+        remote="litmus" />
 
     <!-- <remove-project name="crdroidandroid/android_vendor_addons" /> -->
     <!-- <project path="vendor/addons" name="ArbitrarilyTong/vendor_addons" remote="tong" /> -->
@@ -71,7 +76,7 @@
     <!-- <project path="vendor/crDroidOTA" name="ArbitrarilyTong/vendor_tongOTA" remote="tong" /> -->
 
     <remove-project name="LineageOS/android_vendor_lineage" />
-    <project path="vendor/lineage" name="ArbitrarilyTong/tong_vendor_lineage" remote="tong" />
+    <project path="vendor/lineage" name="ArbitrarilyTong/tong_vendor_lineage" remote="litmus" />
 
     <!-- Add GAPPS -->
     <project path="vendor/gapps" name="ArbitrarilyTong/tong_vendor_gapps" remote="tong-gitlab" />

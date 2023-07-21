@@ -1,20 +1,12 @@
 <!-- The badge template is from https://ileriayo.github.io/markdown-badges/ -->
 <div align = center>
 
-[![ArbitrarilyTong](https://github.com/ArbitrarilyTong/.github/raw/main/github_banner_2.png)][website]
+<img src="https://github.com/litmusos/manifest/blob/thirteen/Litmus.png">
 
-<h1>ArbitrarilyTong | 任意桐</h1>
+<h1>LitmusOS</h1>
 
 本项目基于 [LineageOS][lineage]
 
----
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)][telegram]
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)][twitter]
-[![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=Codeberg&logoColor=white)][codeberg]
-[![GitHub](https://img.shields.io/badge/Devices-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)][devices]
-
----
 </div>
 
 ## 准备工作
@@ -71,21 +63,21 @@ yay -S repo
 
 以下分支可用于构建：
 
-- ArbitrarilyTong-13.0（基于 crDroid）
+- Litmus-13.0（基于 LineageOS）
 
 输入以下命令以初始化代码仓库：
 
 ```bash
 # 创建一个用于存放源文件的目录
 # 可以选择任意位置（只要文件系统区分大小写）
-mkdir ArbitrarilyTong
-cd ArbitrarilyTong
+mkdir LitmusOS
+cd LitmusOS
 
 # 启用 Git LFS 功能
 git lfs install
 
 # 在创建的目录中安装 Repo
-repo init -u https://github.com/ArbitrarilyTong/android_tong.git -b ArbitrarilyTong-13.0 --git-lfs
+repo init -u https://github.com/ArbitrarilyTong/android_tong.git -b Litmus-13.0 --git-lfs
 ```
 
 ## 同步源代码
@@ -104,6 +96,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 以下设备代号可用于构建：
 
 - thyme（小米10S）
+- haydn (红米K40Pro)
 
 输入以下命令以初始化仓库：
 
@@ -159,7 +152,7 @@ cd $OUT
 这里将找到所有创建的文件。其中比较重要的两个文件是：
 
 - `boot.img`，引导映像，包含恢复-ramdisk。
-- 以 `ArbitrarilyTong-` 开头的 zip 文件，是 ArbitrarilyTong 安装程序包。
+- 以 `LitmusOS-` 开头的 zip 文件，是 ArbitrarilyTong 安装程序包。
 
 <!-- reference infos -->
 [lineage]: https://github.com/LineageOS
