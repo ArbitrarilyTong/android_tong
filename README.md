@@ -1,22 +1,14 @@
 <!-- The badge template is from https://ileriayo.github.io/markdown-badges/ -->
 <div align = center>
 
-[![ArbitrarilyTong](https://github.com/ArbitrarilyTong/.github/raw/main/github_banner_2.png)][website]
+<img src="https://github.com/litmusos/manifest/blob/thirteen/Litmus.png">
 
-<h1>ArbitrarilyTong | 任意桐</h1>
+<h1>LitmusOS</h1>
 
 English | [中文](./README.cn.md)
 
 This project is developed based on [LineageOS][lineage]
 
----
-
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)][telegram]
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)][twitter]
-[![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=Codeberg&logoColor=white)][codeberg]
-[![GitHub](https://img.shields.io/badge/Devices-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)][devices]
-
----
 </div>
 
 ## Preparation
@@ -74,21 +66,21 @@ yay -S repo
 
 The following branches can be used to build:
 
-- ArbitrarilyTong-13.0 (Based on crDroid)
+- Litmus-13.0 (Based on crDroid)
 
 Enter the following to initialize the repository:
 
 ```bash
 # Create a directory for the source files
 # This can be located anywhere (as long as the fs is case-sensitive)
-mkdir ArbitrarilyTong
-cd ArbitrarilyTong
+mkdir LitmusOS
+cd LitmusOS
 
 # Enable LFS features
 git lfs install
 
 # Install Repo in the created directory
-repo init -u https://github.com/ArbitrarilyTong/android_tong.git -b ArbitrarilyTong-13.0 --git-lfs
+repo init -u https://github.com/ArbitrarilyTong/android_tong.git -b Litmus-13.0 --git-lfs
 ```
 
 ## Sync the source code
@@ -109,6 +101,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 The following devicecodename can be used to build:
 
 - thyme (Xiaomi 10S)
+- haydn (Xiaomi 11X Pro)
 
 Enter the following to initialize the repository:
 
